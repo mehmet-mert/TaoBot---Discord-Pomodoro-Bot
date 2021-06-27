@@ -43,6 +43,5 @@ main.py dosyasını çalıştırın.
 
 Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için [LICENSE.md](LICENSE.md) dosyasına bakabilirsiniz.
 
-
-
-<img width=50% src="https://media1.tenor.com/images/1af748d196e0c0c5262c5409e17b8e60/tenor.gif?itemid=22126738">
+<img align="right" width=45% src="https://media1.tenor.com/images/b3cdd7c23f32e68a474152607d2fd810/tenor.gif?itemid=22126740">
+<img width=45% src="https://media1.tenor.com/images/1af748d196e0c0c5262c5409e17b8e60/tenor.gif?itemid=22126740">
