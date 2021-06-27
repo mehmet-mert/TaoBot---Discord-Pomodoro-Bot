@@ -1,88 +1,46 @@
-# Project Title
+# TaoBot - Discord Pomodoro Bot
 
-One Paragraph of project description goes here
+TaoBot çalışırken Pomodoro Tekniği ile zamanınızı yöneten bir Discord botudur. Yardım için `tao yardım` yazınız.
 
-## Getting Started
+<img width=50% src="https://media1.tenor.com/images/1af748d196e0c0c5262c5409e17b8e60/tenor.gif?itemid=22126738">
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Başlarken
 
-### Prerequisites
+Repoyu klonlayın ve gerekli şeyleri kurun.
 
-What things you need to install the software and how to install them
+### Ön Koşullar
 
+Ffmpeg bilgisayarınızda kurulu olmalı. Aşağıdaki komutu komut istemine yazarak kontrol edebilir, kurulu değilse [buradan indirebilirsiniz](https://www.ffmpeg.org/download.html).
 ```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
+ffmpeg
 ```
 
-And repeat
-
+### Gerekli Modüller
+Bu modülleri pip ile kurabilirsiniz.
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+pip install discord.py
+pip install pafy
+pip install PyNaCl
+pip install youtube_dl
+pip install opuslib
 ```
 
-### And coding style tests
+### Kurulum
 
-Explain what these tests test and why
+1 - Depoyu klonlayın veya indirin.
+2 - Ön Koşulları tamamlayın.
+3 - Gerekli modülleri kurun.
 
-```
-Give an example
-```
+## Test
 
-## Deployment
+main.py dosyasını çalıştırın.
 
-Add additional notes about how to deploy this on a live system
+## Katkılar
 
-## Built With
+[Süleyman Hilmi Akkaya](https://github.com/hilmiAkkaya)
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Lisans
 
-## Contributing
+Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için [LICENSE.md](LICENSE.md) dosyasına bakabilirsiniz.
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
