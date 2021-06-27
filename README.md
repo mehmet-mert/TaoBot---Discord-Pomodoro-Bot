@@ -2,7 +2,7 @@
 
 TaoBot çalışırken Pomodoro Tekniği ile zamanınızı yöneten bir Discord botudur. Yardım için `tao yardım` yazınız.
 
-<img width=50% src="https://media1.tenor.com/images/1af748d196e0c0c5262c5409e17b8e60/tenor.gif?itemid=22126738">
+<img width=50% src="https://github.com/mehmet-mert/TaoBot---Discord-Pomodoro-Bot/blob/main/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG">
 
 ## Başlarken
 
@@ -44,3 +44,5 @@ main.py dosyasını çalıştırın.
 Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için [LICENSE.md](LICENSE.md) dosyasına bakabilirsiniz.
 
 
+
+<img width=50% src="https://media1.tenor.com/images/1af748d196e0c0c5262c5409e17b8e60/tenor.gif?itemid=22126738">
