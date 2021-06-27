@@ -127,7 +127,7 @@ async def mola(message, calisma):
     if kullanıcı == message.author:
         return
     dt_started = datetime.datetime.utcnow()
-    zaman = 5*60
+    zaman = int(calisma)*60
     mesaj = await message.send(content=("**{}** Sensei' nin molasının bitimine {} saniye"
                                         .format(message.author, str(zaman))))
     while True:
@@ -136,7 +136,8 @@ async def mola(message, calisma):
         dt_ended = datetime.datetime.utcnow()
         await asyncio.sleep(1)
         fark = str(int((dt_ended - dt_started).total_seconds()))
-        remaining = 5 - int(fark)
+
+        remaining = int(calisma)*60 - int(fark)
         if remaining >= 0:
             await mesaj.edit(content=("**{}** Sensei' nin molasının bitimine {} saniye"
                                       "".format(message.author, str(int(remaining)))))
@@ -188,9 +189,9 @@ async def pomo(message, gorev, calisma, set_sayisi):
                 break
             await pomok(message, gorev, calisma, set_sayisi)
             if (i + 1) % 4 == 0:
-                await mola(message, str(int(calisma) * 4))
+                await mola(message, str(int(5) * 6))
             else:
-                await mola(message, calisma)
+                await mola(message, str(5))
         kullanıcı = message.author
         await message.send("Pomodoro tamamlandı!")
     except:
