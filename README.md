@@ -1,6 +1,6 @@
 # TaoBot - Discord Pomodoro Bot
 
-TaoBot çalışırken Pomodoro Tekniği ile zamanınızı yöneten bir Discord botudur. Yardım için `tao yardım` yazınız.
+TaoBot çalışırken Pomodoro Tekniği ile zamanınızı yöneten bir Discord botudur. Yardım için `tao yardım` yazınız. Davet [linki](https://discord.com/api/oauth2/authorize?client_id=858212733820338198&permissions=3275776&scope=bot)
 
 <img width=60% src="https://github.com/mehmet-mert/TaoBot---Discord-Pomodoro-Bot/blob/main/yardım.PNG">
 
