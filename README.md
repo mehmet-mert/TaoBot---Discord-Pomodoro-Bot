@@ -2,7 +2,7 @@
 
 TaoBot çalışırken Pomodoro Tekniği ile zamanınızı yöneten bir Discord botudur. Yardım için `tao yardım` yazınız.
 
-<img width=50% src="https://github.com/mehmet-mert/TaoBot---Discord-Pomodoro-Bot/blob/main/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG">
+<img width=60% src="https://github.com/mehmet-mert/TaoBot---Discord-Pomodoro-Bot/blob/main/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG">
 
 ## Başlarken
 
